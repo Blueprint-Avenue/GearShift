@@ -1,0 +1,113 @@
+.line {
+	display: flex;
+	flex-direction: column;
+	flex: 0.65;
+}
+.line_header {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #78938a;
+}
+
+.line_headerInfo {
+	flex: 1;
+	padding-left: 20px;
+}
+
+.header_title {
+	margin-bottom: 3px;
+	font-weight: 500;
+}
+
+.header_content {
+	color: #d8d2cb;
+	font-weight: 600;
+}
+
+.line_body {
+	flex: 1;
+	background-color: #525e75;
+	opacity: 1;
+	background-color: #525e75;
+	opacity: 1;
+	background: linear-gradient(135deg, #525e7555 25%, transparent 25%) -40px 0/
+			80px 80px,
+		linear-gradient(225deg, #525e75 25%, transparent 25%) -40px 0/ 80px 80px,
+		linear-gradient(315deg, #525e7555 25%, transparent 25%) 0px 0/ 80px 80px,
+		linear-gradient(45deg, #525e75 25%, #525e75 25%) 0px 0/ 80px 80px;
+	background-color: #525e75;
+	background-blend-mode: multiply;
+	background-repeat: repeat;
+	background-position: center;
+	padding: 30px;
+	overflow: scroll;
+	background-repeat: repeat;
+	overflow: scroll;
+	/* border-top-left-radius: 25px; */
+	/* margin-left: 3px; */
+	border-bottom: 2px solid #525e75;
+}
+
+.line_name {
+	color: #d8d2cb;
+	position: absolute;
+	top: -15px;
+	font-weight: 800;
+	font-size: xx-small;
+}
+
+.line_timestamp {
+	margin-left: 10px;
+	font-size: xx-small;
+	color: #000;
+}
+
+.line_text {
+	color: #000;
+	position: relative;
+	font-size: 16px;
+	padding: 10px;
+	width: fit-content;
+	border-radius: 10px;
+	background-color: #f1ddbf;
+	margin-bottom: 30px;
+}
+
+.line_receiver {
+	margin-left: auto;
+	background-color: #92ba92;
+}
+
+.line_footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 62px;
+	margin-top: 10px;
+	background-color: #78938a;
+	border-top-right-radius: 35px;
+	border-top-left-radius: 35px;
+}
+
+.line_footer > form {
+	flex: 1;
+	display: flex;
+}
+
+.line_footer > form > input {
+	flex: 1;
+	border-radius: 30px;
+	padding: 10px;
+	border: none;
+	outline-width: 0;
+}
+
+.footer_btn {
+	display: none;
+}
+
+.line_footer > .MuiSvgIcon-root {
+	padding: 10px;
+	color: #92ba92;
+}

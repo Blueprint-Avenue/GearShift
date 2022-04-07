@@ -5,7 +5,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import DonutSmallIcon from "@material-ui/icons/DonutSmall";
 import { IconButton, Avatar } from "@material-ui/core";
 import { SearchOutlined } from "@material-ui/icons";
-import SidebarChat from "./SidebarChat";
+import SidebarLine from "./SidebarLine";
 
 function Sidebar() {
 	return (
@@ -36,11 +36,11 @@ function Sidebar() {
 			</div>
 			{/* Chats */}
 			<div className="sidebar_lines">
-				<SidebarChat />
-				<SidebarChat />
-				<SidebarChat />
-				<SidebarChat />
-				<SidebarChat />
+				<SidebarLine />
+				<SidebarLine />
+				<SidebarLine />
+				<SidebarLine />
+				<SidebarLine />
 			</div>
 		</div>
 	);
